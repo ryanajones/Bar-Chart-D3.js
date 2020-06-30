@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  color: #7fe0a4;
+  background-color: #11c9ff;
+}
+.chartContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 10px #05213b;
+  border-radius: 40px;
+  width: 900px;
+  height: 560px;
+  background-color: #005b81;
+}
+
+#tooltip {
+  position: absolute;
+  left: 385px;
+  top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: #000000;
+  pointer-events: none;
+}
+
+.bar {
+  fill: #f8d19e;
+}
+
+.overlay {
+  position: absolute;
+  background: #005b81;
+  pointer-events: none;
+}
