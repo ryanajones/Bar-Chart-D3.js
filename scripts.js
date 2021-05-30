@@ -33,6 +33,7 @@ d3.json(
   const newDate = date.map((el) => new Date(el));
   const xMax = new Date(d3.max(newDate));
   xMax.setMonth(xMax.getMonth() + 3);
+
   const xScale = d3
     .scaleTime()
     .domain([d3.min(newDate), xMax])
