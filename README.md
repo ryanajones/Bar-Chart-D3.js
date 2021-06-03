@@ -1,6 +1,6 @@
 # Bar Chart D3
 
-This is a bar chart data visualization project using D3.js library. It visualizes the United States gross domestic product from 1947-2015.
+> A bar chart data visualization project of the United States gross domestic product from 1947-2015. The D3.js library is used to convert JSON data into organized Scalable Vector Graphics.
 
 ## Technologies Used
 
